@@ -46,6 +46,7 @@ public class DWSTest
 	    {
 		 driver.manage().window().maximize();
 		 driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	    }
 	    @Test(priority=0,dataProvider ="regData")
 	    public void registrationTest(String a,String b,String c,String d,String e) throws Exception
