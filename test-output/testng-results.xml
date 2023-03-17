@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-17T20:07:31 IST" name="Default suite" finished-at="2023-01-17T20:08:45 IST" duration-ms="74022">
+    <groups>
+    </groups>
+    <test started-at="2023-01-17T20:07:31 IST" name="Default test" finished-at="2023-01-17T20:08:45 IST" duration-ms="74022">
+      <class name="com.cjc.dws.webapp.Test.DWSTest">
+        <test-method is-config="true" signature="Openbrowser()[pri:0, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:07:30 IST" name="Openbrowser" finished-at="2023-01-17T20:07:31 IST" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:07:31 IST" name="openurl" finished-at="2023-01-17T20:07:35 IST" duration-ms="4008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method is-config="true" signature="windowshandle()[pri:0, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:07:35 IST" name="windowshandle" finished-at="2023-01-17T20:07:35 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowshandle -->
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:07:36 IST" name="registrationTest" data-provider="regData" finished-at="2023-01-17T20:07:37 IST" duration-ms="1548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chetan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[badarkhe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[badarkhechetan@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method signature="Logintest()[pri:1, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:07:37 IST" name="Logintest" finished-at="2023-01-17T20:07:44 IST" duration-ms="7195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method signature="addtocart()[pri:2, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:07:44 IST" name="addtocart" finished-at="2023-01-17T20:07:57 IST" duration-ms="12535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method signature="baddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:07:57 IST" name="baddress" data-provider="addrData" finished-at="2023-01-17T20:07:58 IST" duration-ms="1350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[karvenagar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[222000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8888444422]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[23156587]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baddress -->
+        <test-method signature="saddress()[pri:4, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:07:58 IST" name="saddress" finished-at="2023-01-17T20:08:04 IST" duration-ms="6256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saddress -->
+        <test-method signature="paymentmethod()[pri:5, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:08:04 IST" name="paymentmethod" finished-at="2023-01-17T20:08:11 IST" duration-ms="6245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentmethod -->
+        <test-method signature="orderconfirn()[pri:6, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:08:11 IST" name="orderconfirn" finished-at="2023-01-17T20:08:24 IST" duration-ms="13354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderconfirn -->
+        <test-method signature="Logoutmethod()[pri:7, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:08:24 IST" name="Logoutmethod" finished-at="2023-01-17T20:08:45 IST" duration-ms="21309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logoutmethod -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:com.cjc.dws.webapp.Test.DWSTest@175c2241]" started-at="2023-01-17T20:08:45 IST" name="browserclose" finished-at="2023-01-17T20:08:45 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- com.cjc.dws.webapp.Test.DWSTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
